@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama2
+        options:
+          temperature: 0.7
+          num-predict: 1000
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
+    com.example.ollamachatbot: DEBUG
+
+cors:
+  allowed-origins: http://localhost:3000
