@@ -14,8 +14,8 @@
     <name>ollama-chatbot</name>
     <description>Chatbot using Spring AI with Ollama</description>
     <properties>
-        <java.version>21</java.version>
-        <spring-ai.version>0.8.1</spring-ai.version>
+        <java.version>17</java.version>
+        <spring-ai.version>1.0.0</spring-ai.version>
     </properties>
     <dependencies>
         <dependency>

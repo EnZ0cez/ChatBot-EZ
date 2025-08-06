@@ -16,7 +16,7 @@ A full-stack chatbot application built with Spring Boot, Spring AI, and React Ty
 
 Before running this application, ensure you have:
 
-1. **Java 21+** installed
+1. **Java 17+** installed
 2. **Node.js 18+** and npm
 3. **Maven 3.6+**
 4. **Ollama** installed and running
@@ -131,7 +131,7 @@ const API_BASE_URL = 'http://localhost:8080/api/chat';
 ### Common Issues
 
 **Backend fails to start:**
-- Check if Java 21+ is installed: `java --version`
+- Check if Java 17+ is installed: `java --version`
 - Verify Maven installation: `mvn --version`
 - Check if port 8080 is available
 
